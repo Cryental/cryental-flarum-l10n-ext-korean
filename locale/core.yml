@@ -136,11 +136,11 @@ core:
       basics_button: 기본
       basics_text: "포럼 제목, 언어 및 기타 기본 설정을 설정합니다."
       dashboard_button: 대시보드
-      dashboard_text: 포럼 개요.
+      dashboard_text: 포럼 개요
       email_button: => core.ref.email
       email_text: "포럼의 이메일 설정을 구성합니다."
       extensions_button: 확장 기능
-      extensions_text: 포럼에 부가 기능을 추가하여 포럼을 고유하게 만듭니다.
+      extensions_text: 포럼에 확장 기능을 추가합니다.
       permissions_button: 권한
       permissions_text: 포럼을 보고 작업할 수 있는 사용자를 구성합니다.
 
@@ -156,14 +156,14 @@ core:
       edit_posts_label: 게시물 수정
       edit_users_label: 사용자 편집
       global_heading: 글로벌
-      moderate_heading: 조정
+      moderate_heading: 중재
       new_group_button: 새 그룹
       participate_heading: 참여
       post_without_throttle_label: 기다림 없이 여러 번 답장 허용
       read_heading: 읽기
       rename_discussions_label: 이름 변경
       reply_to_discussions_label: 답장 쓰기
-      sign_up_label: 회원 가입
+      sign_up_label: 가입
       start_discussions_label: 글쓰기
       view_discussions_label: 게시글 보기
       view_hidden_groups_label: 숨긴 그룹 배지 표시
@@ -199,14 +199,14 @@ core:
       confirm_password_placeholder: => core.ref.confirm_password
       confirmation_message: => core.ref.confirmation_email_sent
       dismiss_button: => core.ref.okay
-      incorrect_password_message: 입력한 암호가 올바르지 않습니다.
+      incorrect_password_message: 입력한 비밀번호가 올바르지 않습니다.
       submit_button: => core.ref.save_changes
       title: => core.ref.change_email
 
     # These translations are used in the Change Password modal dialog.
     change_password:
-      send_button: 암호 재설정 이메일 보내기
-      text: 아래 버튼을 클릭하고 이메일에서 암호를 변경할 수 있는 링크를 확인합니다.
+      send_button: 비밀번호 재설정 이메일 보내기
+      text: 아래 버튼을 클릭하면 이메일에서 비밀번호를 변경할 수 있는 링크를 보내드립니다.
       title: => core.ref.change_password
 
     # These translations are used by the composer controls.
@@ -256,8 +256,8 @@ core:
       empty_text: 여기에는 아무런 글이 없는 것 같습니다.
       load_more_button: => core.ref.load_more
       mark_as_read_tooltip: 읽음으로 표시
-      replied_text: "{username}님이 {ago} 전에 답장했습니다."
-      started_text: "{username}님이 {ago} 전에 게시했습니다."
+      replied_text: "{username}님이 {ago}에 답장했습니다."
+      started_text: "{username}님이 {ago}에 게시했습니다."
 
     # These translations are used in the Edit User modal dialog (admin function).
     edit_user:
@@ -334,7 +334,7 @@ core:
     # These translations are used by tooltips displayed for individual posts.
     post:
       edited_text: 수정됨
-      edited_tooltip: "{username}님이 {ago}전에 수정했습니다"
+      edited_tooltip: "{username}님이 {ago}에 수정했습니다"
       number_tooltip: "#{number}개 게시"
 
     # These translations are used by the post control buttons.
@@ -403,7 +403,7 @@ core:
       avatar_upload_tooltip: 새 프로필 사진 업로드
       discussions_link: => core.ref.discussions
       in_discussion_text: "{discussion}에서"
-      joined_date_text: "{ago}전에 가입함"
+      joined_date_text: "{ago}에 가입함"
       online_text: 온라인
       posts_empty_text: 여기에 게시물이 없는 것 같습니다.
       posts_link: => core.ref.posts
@@ -493,8 +493,8 @@ core:
 
     # Translations in this namespace are displayed by the Reset Password interface.
     reset_password:
-      confirm_password_label: 새 암호 확인
-      new_password_label: 새 암호
+      confirm_password_label: 새 비밀번호 확인
+      new_password_label: 새 비밀번호
       submit_button: => core.ref.save_changes
       title: => core.ref.reset_your_password
 
@@ -537,7 +537,7 @@ core:
       body: |
         안녕하세요 {username}님!
 
-        누군가가 {forum}의 사용자 계정에 대해 암호 찾기 요청을 제출했습니다.
+        누군가가 {forum}의 사용자 계정에 대해 비밀번호 재설정 요청을 제출했습니다.
 
         귀하인 경우 다음 링크를 클릭하여 암호를 재설정하십시오:
         {url}
@@ -552,9 +552,9 @@ core:
   ref:
     all_discussions: 모든 토론
     change_email: 이메일 변경
-    change_password: 암호 변경
+    change_password: 비밀번호 변경
     color: 색상                                 # Referenced by flarum-tags.yml
-    confirm_password: 암호 확인
+    confirm_password: 비밀번호 확인
     confirmation_email_sent: "{email}로 확인 이메일을 보냈습니다. 메일을 받지 못한 경우 스팸 폴더를 확인하십시오."
     custom_footer_text: 페이지 맨 아래에 표시될 HTML 코드를 추가하세요.
     custom_footer_title: 편집
@@ -566,7 +566,7 @@ core:
     edit: 편집
     email: 이메일
     icon: 아이콘
-    icon_text: "<code>fas fa-</code> 접두사를 <em>포함한</em> <a>FontAwesome</a> 아이콘 클래스의 이름을 입력합니다."
+    icon_text: "접두사를 <code>fas fa-</code> 포함한 <a>FontAwesome</a> 아이콘 이름을 입력합니다."
     load_more: 더 보기
     log_in: 로그인
     log_out: 로그아웃
@@ -574,7 +574,7 @@ core:
     next_page: 다음 페이지
     notifications: 알림
     okay: 확인                                     # Referenced by flarum-tags.yml
-    password: 암호
+    password: 비밀번호
     posts: 게시물                                 # Referenced by flarum-statistics.yml
     previous_page: 이전 페이지
     remove: 삭제
@@ -584,7 +584,7 @@ core:
     restore: 복구
     save_changes: 변경사항 저장                   # Referenced by flarum-suspend.yml, flarum-tags.yml
     settings: 설정
-    sign_up: 회원 가입
+    sign_up: 가입
     some_others: "{count}개 기타|{count}개 기타"  # Referenced by flarum-likes.yml, flarum-mentions.yml
     start_a_discussion: 토론 시작
     username: 사용자 이름

@@ -15,40 +15,40 @@ flarum-tags:
     edit_tag:
       color_label: => core.ref.color
       delete_tag_button: 태그 삭제
-      delete_tag_confirmation: "이 태그를 삭제하시겠습니까? 이 경우 태그의 토론은 삭제되지 않습니다."
+      delete_tag_confirmation: "이 태그를 삭제하시겠습니까? 이 경우 태그의 게시물은 삭제되지 않습니다."
       description_label: 설명
-      hide_label: 모든 토론에서 감추기
+      hide_label: 모든 게시물에서 숨기기
       icon_label: => core.ref.icon
       icon_text: => core.ref.icon_text
       name_label: => flarum-tags.ref.name
       name_placeholder: => flarum-tags.ref.name
-      slug_label: 슬러그
+      slug_label: 영어 이름
       submit_button: => core.ref.save_changes
       title: => flarum-tags.ref.create_tag
 
     # These translations are used in the navigation bar.
     nav:
       tags_button: => flarum-tags.ref.tags
-      tags_text: 토론을 조직하는 데 사용할 수 있는 태그 목록을 관리합니다.
+      tags_text: 사용 가능한 태그 목록을 관리합니다.
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
       allow_edit_tags_label: 태그 편집 사용
       restrict_by_tag_heading: 태그로 제한
-      tag_discussions_label: 토론 태그 설정
+      tag_discussions_label: 게시물 태그 설정
 
     # These translations are used in the Tag Settings modal dialog.
     tag_settings:
       range_separator_text: " 으로 "
       required_primary_heading: 필요한 기본 태그 수
-      required_primary_text: 토론에 적용할 수 있는 기본 태그의 최소 및 최대 수를 입력합니다.
+      required_primary_text: 게시물에 적용할 수 있는 기본 태그의 최소 및 최대 수를 입력합니다.
       required_secondary_heading: 필요한 보조 태그 수
-      required_secondary_text: 토론에 적용할 수 있는 보조 태그의 최소 및 최대 수를 입력합니다.
+      required_secondary_text: 게시물에 적용할 수 있는 보조 태그의 최소 및 최대 수를 입력합니다.
       title: 태그 설정
 
     # These translations are used in the Tags page.
     tags:
-      about_tags_text: "태그는 토론을 분류하는 데 사용됩니다. 기본 태그는 전통적인 포럼 범주와 유사합니다. 기본 태그는 2단계 계층 구조로 정렬할 수 있습니다. 보조 태그에는 계층 또는 순서가 없으므로 미소 범주에 유용합니다."
+      about_tags_text: "태그는 게시물을 분류하는 데 사용됩니다. 기본 태그는 기존 포럼 카테고리와 유사하며 2단계 계층 구조로 정렬할 수 있습니다. 보조 태그에는 계층 또는 순서가 없으며 미세 분류에 유용합니다."
       create_tag_button: => flarum-tags.ref.create_tag
       primary_heading: 기본 태그
       secondary_heading: 보조 태그
@@ -68,7 +68,7 @@ flarum-tags:
       choose_secondary_placeholder: "1개 태그 추가 선택|{count}개 태그 추가 선택"
       edit_title: "{title}에 대한 태그 편집"
       submit_button: => core.ref.okay
-      title: 토론에 사용할 태그를 선택합니다
+      title: 게시물에 사용할 태그를 선택합니다
 
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
@@ -96,7 +96,7 @@ flarum-tags:
 
     # These translations are used when visiting a single tag's discussion list.
     tag:
-      meta_description_text: "{tag} 태그를 사용한 모든 토론"
+      meta_description_text: "{tag} 태그를 사용한 모든 게시물"
 
   # Translations in this namespace are used by the forum and admin interfaces.
   lib:
