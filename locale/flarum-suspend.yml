@@ -9,29 +9,29 @@ flarum-suspend:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      suspend_users_label: 사용자 보류
+      suspend_users_label: 사용자 일시 정지
 
   # Translations in this namespace are used by the forum user interface.
   forum:
     # These translations are used in the suspension notifications
     notifications:
-      user_suspended_text: "{username}님이 {timeReadable}에 대해 일시 보류되었습니다"
-      user_unsuspended_text: "{username}님이 귀하를 보류했습니다"
+      user_suspended_text: "{username}님이 {timeReadable} 동안 귀하를 일시 정지했습니다"
+      user_unsuspended_text: "{username}님이 귀하의 정지를 해제했습니다"
 
     # These translations are used in the Suspend User modal dialog (admin function).
     suspend_user:
-      indefinitely_label: 영구 보류
+      indefinitely_label: 무기한 정지
       limited_time_days_text: " 일간"
-      limited_time_label: 일정한 기간 보류함...
-      not_suspended_label: 보류되지 않음
-      status_heading: 보류 상태
+      limited_time_label: 일정 기간 정지...
+      not_suspended_label: 일시 정지되지 않음
+      status_heading: 정지 상태
       submit_button: => core.ref.save_changes
-      title: "{username}님이 보류함"
+      title: "{username}님을 정지"
 
     # These translations are displayed as tooltips for user badges.
     user_badge:
-      suspended_tooltip: 보류됨
+      suspended_tooltip: 일시 정지됨
 
     # These translations are found on the user profile page (admin function).
     user_controls:
-      suspend_button: 보류
+      suspend_button: 정지

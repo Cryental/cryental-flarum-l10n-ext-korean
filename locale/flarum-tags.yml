@@ -34,7 +34,7 @@ flarum-tags:
     # These translations are used in the Permissions page of the admin interface.
     permissions:
       allow_edit_tags_label: 태그 편집 사용
-      restrict_by_tag_heading: 태그로 제한
+      restrict_by_tag_heading: 태그 제한
       tag_discussions_label: 게시물 태그 설정
 
     # These translations are used in the Tag Settings modal dialog.

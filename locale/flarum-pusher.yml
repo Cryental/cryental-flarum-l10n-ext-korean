@@ -9,9 +9,9 @@ flarum-pusher:
 
     # These translations are used in the Pusher Settings modal dialog.
     pusher_settings:
-      app_cluster_label: 클러스터
+      app_cluster_label: Cluster
       app_id_label: App ID
-      app_key_label: App 키
+      app_key_label: App Key
       app_secret_label: App Secret
       title: Pusher 설정
 
@@ -20,4 +20,4 @@ flarum-pusher:
 
     # These translations are used in the discussion list.
     discussion_list:
-      show_updates_text: "{count}개의 업데이트된 토론 표시|{count}개의 업데이트된 토론 표시"
+      show_updates_text: "{count}개의 업데이트 된 게시물 표시|{count}개의 업데이트 된 게시물 표시"

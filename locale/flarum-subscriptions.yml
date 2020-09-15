@@ -34,7 +34,7 @@ flarum-subscriptions:
     # These translations are used in the subscription menu displayed to the right of the post stream.
     sub_controls:
       follow_button: => flarum-subscriptions.ref.follow
-      following_button: 팔로우됨
+      following_button: 팔로우 됨
       following_text: 모든 답장에 대해 알림을 받습니다.
       ignoring_button: => flarum-subscriptions.ref.ignoring
       ignoring_text: 알림을 받지 않고 토론 목록에서도 숨깁니다.

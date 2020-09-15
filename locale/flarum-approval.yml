@@ -10,7 +10,7 @@ flarum-approval:
     # These translations are used in the Permissions page of the admin interface.
     permissions:
       approve_posts_label: 게시물 승인
-      reply_without_approval_label: 승인 없이 토론에 응답
+      reply_without_approval_label: 승인 없이 게시물에 답장
       start_discussions_without_approval_label: 승인 없이 토론 시작
 
   # Translations in this namespace are used by the forum user interface.

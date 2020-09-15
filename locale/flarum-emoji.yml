@@ -10,4 +10,4 @@ flarum-emoji:
     # These translations are used by the composer (emoji autocompletion function).
     composer:
       emoji_tooltip: 이모지 삽입
-      type_to_search_text: 이모지를 검색하려면 입력하십시오
+      type_to_search_text: 이모지 검색...
