@@ -15,3 +15,5 @@ Flarum uses Composer to manage its dependencies and extensions. Run the followin
 ```shell
 composer require cryental/flarum-l10n-ext-korean
 ```
+
+Pull requests are always welcome!
